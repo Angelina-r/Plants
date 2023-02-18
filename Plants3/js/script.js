@@ -6,7 +6,7 @@ if(iconMenu) {
   iconMenu.addEventListener("click", function (e) {
     document.body.classList.toggle('_lock');
     iconMenu.classList.toggle('_active');
-    headerBag.classList.toggle('_active');
+    headerBag.classList.toggle('_active') ;
 
   });
 }
